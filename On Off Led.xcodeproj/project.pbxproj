@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A7376E1DE3F1B900547ECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A7376D1DE3F1B900547ECD /* AppDelegate.swift */; };
+		33A737701DE3F1B900547ECD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A7376F1DE3F1B900547ECD /* ViewController.swift */; };
+		33A737731DE3F1B900547ECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A737711DE3F1B900547ECD /* Main.storyboard */; };
+		33A737751DE3F1B900547ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A737741DE3F1B900547ECD /* Assets.xcassets */; };
+		33A737781DE3F1B900547ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A737761DE3F1B900547ECD /* LaunchScreen.storyboard */; };
+		33A737831DE3F1B900547ECD /* On_Off_LedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A737821DE3F1B900547ECD /* On_Off_LedTests.swift */; };
+		33A7378E1DE3F1B900547ECD /* On_Off_LedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A7378D1DE3F1B900547ECD /* On_Off_LedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33A7377F1DE3F1B900547ECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A737621DE3F1B900547ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A737691DE3F1B900547ECD;
+			remoteInfo = "On Off Led";
+		};
+		33A7378A1DE3F1B900547ECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A737621DE3F1B900547ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A737691DE3F1B900547ECD;
+			remoteInfo = "On Off Led";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33A7376A1DE3F1B900547ECD /* On Off Led.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On Off Led.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A7376D1DE3F1B900547ECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33A7376F1DE3F1B900547ECD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33A737721DE3F1B900547ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33A737741DE3F1B900547ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33A737771DE3F1B900547ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33A737791DE3F1B900547ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A7377E1DE3F1B900547ECD /* On Off LedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "On Off LedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A737821DE3F1B900547ECD /* On_Off_LedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = On_Off_LedTests.swift; sourceTree = "<group>"; };
+		33A737841DE3F1B900547ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A737891DE3F1B900547ECD /* On Off LedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "On Off LedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A7378D1DE3F1B900547ECD /* On_Off_LedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = On_Off_LedUITests.swift; sourceTree = "<group>"; };
+		33A7378F1DE3F1B900547ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A737671DE3F1B900547ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A7377B1DE3F1B900547ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A737861DE3F1B900547ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A737611DE3F1B900547ECD = {
+			isa = PBXGroup;
+			children = (
+				33A7376C1DE3F1B900547ECD /* On Off Led */,
+				33A737811DE3F1B900547ECD /* On Off LedTests */,
+				33A7378C1DE3F1B900547ECD /* On Off LedUITests */,
+				33A7376B1DE3F1B900547ECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33A7376B1DE3F1B900547ECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A7376A1DE3F1B900547ECD /* On Off Led.app */,
+				33A7377E1DE3F1B900547ECD /* On Off LedTests.xctest */,
+				33A737891DE3F1B900547ECD /* On Off LedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A7376C1DE3F1B900547ECD /* On Off Led */ = {
+			isa = PBXGroup;
+			children = (
+				33A7376D1DE3F1B900547ECD /* AppDelegate.swift */,
+				33A7376F1DE3F1B900547ECD /* ViewController.swift */,
+				33A737711DE3F1B900547ECD /* Main.storyboard */,
+				33A737741DE3F1B900547ECD /* Assets.xcassets */,
+				33A737761DE3F1B900547ECD /* LaunchScreen.storyboard */,
+				33A737791DE3F1B900547ECD /* Info.plist */,
+			);
+			path = "On Off Led";
+			sourceTree = "<group>";
+		};
+		33A737811DE3F1B900547ECD /* On Off LedTests */ = {
+			isa = PBXGroup;
+			children = (
+				33A737821DE3F1B900547ECD /* On_Off_LedTests.swift */,
+				33A737841DE3F1B900547ECD /* Info.plist */,
+			);
+			path = "On Off LedTests";
+			sourceTree = "<group>";
+		};
+		33A7378C1DE3F1B900547ECD /* On Off LedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33A7378D1DE3F1B900547ECD /* On_Off_LedUITests.swift */,
+				33A7378F1DE3F1B900547ECD /* Info.plist */,
+			);
+			path = "On Off LedUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A737691DE3F1B900547ECD /* On Off Led */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A737921DE3F1B900547ECD /* Build configuration list for PBXNativeTarget "On Off Led" */;
+			buildPhases = (
+				33A737661DE3F1B900547ECD /* Sources */,
+				33A737671DE3F1B900547ECD /* Frameworks */,
+				33A737681DE3F1B900547ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "On Off Led";
+			productName = "On Off Led";
+			productReference = 33A7376A1DE3F1B900547ECD /* On Off Led.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33A7377D1DE3F1B900547ECD /* On Off LedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A737951DE3F1B900547ECD /* Build configuration list for PBXNativeTarget "On Off LedTests" */;
+			buildPhases = (
+				33A7377A1DE3F1B900547ECD /* Sources */,
+				33A7377B1DE3F1B900547ECD /* Frameworks */,
+				33A7377C1DE3F1B900547ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A737801DE3F1B900547ECD /* PBXTargetDependency */,
+			);
+			name = "On Off LedTests";
+			productName = "On Off LedTests";
+			productReference = 33A7377E1DE3F1B900547ECD /* On Off LedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33A737881DE3F1B900547ECD /* On Off LedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A737981DE3F1B900547ECD /* Build configuration list for PBXNativeTarget "On Off LedUITests" */;
+			buildPhases = (
+				33A737851DE3F1B900547ECD /* Sources */,
+				33A737861DE3F1B900547ECD /* Frameworks */,
+				33A737871DE3F1B900547ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A7378B1DE3F1B900547ECD /* PBXTargetDependency */,
+			);
+			name = "On Off LedUITests";
+			productName = "On Off LedUITests";
+			productReference = 33A737891DE3F1B900547ECD /* On Off LedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A737621DE3F1B900547ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = khacviet;
+				TargetAttributes = {
+					33A737691DE3F1B900547ECD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					33A7377D1DE3F1B900547ECD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 33A737691DE3F1B900547ECD;
+					};
+					33A737881DE3F1B900547ECD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 33A737691DE3F1B900547ECD;
+					};
+				};
+			};
+			buildConfigurationList = 33A737651DE3F1B900547ECD /* Build configuration list for PBXProject "On Off Led" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A737611DE3F1B900547ECD;
+			productRefGroup = 33A7376B1DE3F1B900547ECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A737691DE3F1B900547ECD /* On Off Led */,
+				33A7377D1DE3F1B900547ECD /* On Off LedTests */,
+				33A737881DE3F1B900547ECD /* On Off LedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A737681DE3F1B900547ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A737781DE3F1B900547ECD /* LaunchScreen.storyboard in Resources */,
+				33A737751DE3F1B900547ECD /* Assets.xcassets in Resources */,
+				33A737731DE3F1B900547ECD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A7377C1DE3F1B900547ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A737871DE3F1B900547ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A737661DE3F1B900547ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A737701DE3F1B900547ECD /* ViewController.swift in Sources */,
+				33A7376E1DE3F1B900547ECD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A7377A1DE3F1B900547ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A737831DE3F1B900547ECD /* On_Off_LedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A737851DE3F1B900547ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A7378E1DE3F1B900547ECD /* On_Off_LedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33A737801DE3F1B900547ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A737691DE3F1B900547ECD /* On Off Led */;
+			targetProxy = 33A7377F1DE3F1B900547ECD /* PBXContainerItemProxy */;
+		};
+		33A7378B1DE3F1B900547ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A737691DE3F1B900547ECD /* On Off Led */;
+			targetProxy = 33A7378A1DE3F1B900547ECD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33A737711DE3F1B900547ECD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A737721DE3F1B900547ECD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33A737761DE3F1B900547ECD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A737771DE3F1B900547ECD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33A737901DE3F1B900547ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33A737911DE3F1B900547ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A737931DE3F1B900547ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "On Off Led/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.khacviet.On-Off-Led";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33A737941DE3F1B900547ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "On Off Led/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.khacviet.On-Off-Led";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33A737961DE3F1B900547ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "On Off LedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.khacviet.On-Off-LedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/On Off Led.app/On Off Led";
+			};
+			name = Debug;
+		};
+		33A737971DE3F1B900547ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "On Off LedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.khacviet.On-Off-LedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/On Off Led.app/On Off Led";
+			};
+			name = Release;
+		};
+		33A737991DE3F1B900547ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "On Off LedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.khacviet.On-Off-LedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "On Off Led";
+			};
+			name = Debug;
+		};
+		33A7379A1DE3F1B900547ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "On Off LedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.khacviet.On-Off-LedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "On Off Led";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A737651DE3F1B900547ECD /* Build configuration list for PBXProject "On Off Led" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A737901DE3F1B900547ECD /* Debug */,
+				33A737911DE3F1B900547ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A737921DE3F1B900547ECD /* Build configuration list for PBXNativeTarget "On Off Led" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A737931DE3F1B900547ECD /* Debug */,
+				33A737941DE3F1B900547ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33A737951DE3F1B900547ECD /* Build configuration list for PBXNativeTarget "On Off LedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A737961DE3F1B900547ECD /* Debug */,
+				33A737971DE3F1B900547ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33A737981DE3F1B900547ECD /* Build configuration list for PBXNativeTarget "On Off LedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A737991DE3F1B900547ECD /* Debug */,
+				33A7379A1DE3F1B900547ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A737621DE3F1B900547ECD /* Project object */;
+}
